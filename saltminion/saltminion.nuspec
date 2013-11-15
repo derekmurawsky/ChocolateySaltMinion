@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>saltminion</id>
+    <title>Salt Minion</title>
+    <version>0.17.2</version>
+    <authors>SaltStack</authors>
+    <owners>Derek Murawsky</owners>
+    <summary>Salt Minion Installer</summary>
+    <description>
+	This package installs a salt minion on your system as a windows service. The Salt minion receives commands from the central Salt master and replies with the results of said commands.
+	Note that the Salt Minion Installer supports two arguments: /master=yoursaltmaster /minion-name=yourminionname.	These arguments can be passed to the package via the -installargs parameter.
+	</description>
+    <projectUrl>https://github.com/derekmurawsky/ChocolateySaltMinion</projectUrl>
+    <tags>salt minion admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/saltstack/salt/blob/develop/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://0.gravatar.com/avatar/8e25be5fcc652c85b518a5755986615f</iconUrl>
+    <releaseNotes>
+	* Supports /master=yoursaltmaster and /minion-name=yourminionname parameters.
+	* Installs as a windows service .
+	* Uninstaller requires user confirmation. 
+	</releaseNotes>
+	<dependencies>
+		<dependency id="vcredist2008"/>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
