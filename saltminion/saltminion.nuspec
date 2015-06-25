@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>saltminion</id>
     <title>Salt Minion</title>
-    <version>2014.7.2</version>
+    <version>2014.5.0-2</version>
     <authors>SaltStack</authors>
     <owners>Derek Murawsky</owners>
     <summary>Salt Minion Installer</summary>
