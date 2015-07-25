@@ -3,7 +3,7 @@ ChocolateySaltMinion
 
 A chocolatey package to install a salt minion.
 
-Supports /master=yoursaltmaster and /minion-name=yourminionname parameters.
+Supports /master=yoursaltmaster and /minion-name=yourminionname parameters. These arguments can be passed to the package via the -installargs parameter.
 - Default values are:
   - master (master)
   - minion (hostname)
