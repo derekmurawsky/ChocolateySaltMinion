@@ -12,7 +12,7 @@
 	Note that the Salt Minion Installer supports two arguments: /master=yoursaltmaster /minion-name=yourminionname.	These arguments can be passed to the package via the -installargs parameter.
 	</description>
     <projectUrl>https://github.com/derekmurawsky/ChocolateySaltMinion</projectUrl>
-    <tags>salt minion admin</tags>
+    <tags>salt minion admin saltstack</tags>
     <copyright></copyright>
     <licenseUrl>https://github.com/saltstack/salt/blob/develop/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
