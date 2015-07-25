@@ -10,7 +10,11 @@ Supports /master=yoursaltmaster and /minion-name=yourminionname parameters.
 - Installs as a windows service. This runs automatically
 - Uninstaller requires user confirmation.
 
-Chocolatey doesn't support dashes in a version. This prevents some packages from being created:
+The version defined in the package can be overridden via the -version option.
+
+  `choco install saltminion -version 2015.5.2`
+  
+Chocolatey doesn't support dashes in a version. This prevents some packages from being created currently:
 - 2015.5.1-3
 - 2015.5.0-2
 - 2014.7.5-2
