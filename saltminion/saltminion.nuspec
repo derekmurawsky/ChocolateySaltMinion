@@ -3,7 +3,7 @@
   <metadata>
     <id>saltminion</id>
     <title>Salt Minion</title>
-    <version>2015.5.2</version>
+    <version>2015.5.3</version>
     <authors>SaltStack</authors>
     <owners>Derek Murawsky</owners>
     <summary>Salt Minion Installer</summary>
