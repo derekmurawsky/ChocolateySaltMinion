@@ -1,18 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>saltminion</id>
     <title>Salt Minion</title>
-    <version>2014.7.2</version>
+    <version>2015.5.3</version>
     <authors>SaltStack</authors>
     <owners>Derek Murawsky</owners>
     <summary>Salt Minion Installer</summary>
     <description>
 	This package installs a salt minion on your system as a windows service. The Salt minion receives commands from the central Salt master and replies with the results of said commands.
 	Note that the Salt Minion Installer supports two arguments: /master=yoursaltmaster /minion-name=yourminionname.	These arguments can be passed to the package via the -installargs parameter.
+	Versions with a dash (2014.7.5-2) aren't supported by chocolatey. Currently the install script doesn't work around that constraint.
 	</description>
     <projectUrl>https://github.com/derekmurawsky/ChocolateySaltMinion</projectUrl>
-    <tags>salt minion admin</tags>
+    <tags>salt minion admin saltstack</tags>
     <copyright></copyright>
     <licenseUrl>https://github.com/saltstack/salt/blob/develop/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
